@@ -1,17 +1,15 @@
 # Enunciado
 
-1. E-commerce
+-   Reto - Frontend Engineer (SP):
+    Desafío: Desarrollar una aplicación web responsive que permita a los usuarios buscar y filtrar a través de una lista de productos. La aplicación debe ser construida utilizando React y NextJS, e incluir las siguientes características:
 
-✅ Muestra uuna lista de productos que vienen le JSON
-- Añade un filtro por categoria
-- Añade un filtro por precio
+1. ✅ Visualización de productos: Los usuarios deben poder ver una lista de productos, incluyendo el nombre del producto, imagen, precio y descripción.
+Búsqueda de productos: Los usuarios deben poder buscar productos por nombre o palabra clave.
 
-Haz uso de useContext para evitar props innecesarias
+2. ✅ Filtrado de productos: Los usuarios deben poder filtrar productos por rango de precio, categoría y disponibilidad.
+Detalle del producto: Los usuarios deben poder ver los detalles de un producto, incluyendo imágenes adicionales, características del producto y reseñas.
 
-2. Shopping cart
+3. 🚫 Autenticación de usuarios: Los usuarios deben poder registrarse e iniciar sesión en la plataforma utilizando su dirección de correo electrónico y contraseña. Los datos de los usuarios y las contraseñas deben ser almacenados de forma segura y encriptada.
 
-- Haz que se puedan añadir los productos a un carrito
-- Haz que se puedan eliminar los productos del carrito
-- Haz que se puedan modificar la cantidad de productos del carrito
-- Sincroniza los cambios del carrito con la lista de productos
-- Guarda en un localStorage el carrito para que se recupere al recargar la pagina
+4. 🚫 Integración de Google Analytics: Integrar Google Analytics para rastrear el comportamiento de los usuarios y las interacciones con el sitio web.
+Documentación: Documentar el código de la plataforma, incluyendo instrucciones de instalación y uso.
