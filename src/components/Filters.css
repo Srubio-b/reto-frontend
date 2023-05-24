@@ -1,0 +1,18 @@
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    height: 200px;
+}
+
+.filters > div {
+    display: flex;
+    gap: 1rem;
+}
+
+.title-filter {
+    position: absolute;
+    top: 160px;
+}
